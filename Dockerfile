@@ -6,7 +6,7 @@ MAINTAINER David Personette <dperson@gmail.com>
 #    apk --no-cache --no-progress add bash samba shadow && \
 RUN apk --no-cache update && \
     apk --no-cache upgrade && \
-    apk --no-cache add bash-completion vim cups nfs-utils samba shadow 
+    apk --no-cache add bash-completion vim cups nfs-utils samba shadow openrc
     
 RUN adduser -D -G users -H -g 'Samba User' -h /tmp smbuser && \
     file="/etc/samba/smb.conf" && \
