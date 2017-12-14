@@ -1,5 +1,5 @@
-FROM alpine:3.6
-MAINTAINER David Personette <dperson@gmail.com>
+FROM alpine:3.7
+MAINTAINER Pawel Urawski <Pawel.Urawski@gmail.com>
 
 # Install samba
 #RUN apk --no-cache --no-progress upgrade && \
